@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
     <!-- FontAwesome pour les icônes -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
 </head>
 <body>
 
@@ -24,7 +23,7 @@
         </div>
     </div>
 
-   <!-- En-tête / Navigation -->
+    <!-- En-tête / Navigation -->
     <header class="header">
         <div class="container navbar">
             <a href="index.html" class="logo-container">
@@ -117,6 +116,91 @@
                     <h3>Nettoyage Événementiel</h3>
                     <p>Interventions avant, pendant et après vos foires, conférences et manifestations.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Équipes -->
+    <section id="equipes" class="section">
+        <div class="container">
+            <div class="text-center">
+                <span class="badge">Notre Personnel</span>
+                <h2>Une équipe qualifiée et engagée</h2>
+                <p style="max-width: 700px; margin: 0 auto 40px auto;">Nos agents d'intervention et nos techniciens hygiénistes sont rigoureusement formés aux méthodes de nettoyage écologique et aux normes de sécurité internationales.</p>
+            </div>
+
+            <div class="grid-3">
+                <div class="card text-center">
+                    <i class="fas fa-user-shield service-icon"></i>
+                    <h3>Techniciens Hygiénistes</h3>
+                    <p>Experts certifiés en dératisation, désinsectisation et désinfection (Peste Control). Ils manipulent les produits écologiques avec précision.</p>
+                </div>
+
+                <div class="card text-center">
+                    <i class="fas fa-hands-wash service-icon"></i>
+                    <h3>Agents d'Entretien</h3>
+                    <p>Spécialistes de la propreté résidentielle et tertiaire, formés au tri sélectif et à l'utilisation d'équipements de pointe.</p>
+                </div>
+
+                <div class="card text-center">
+                    <i class="fas fa-tasks service-icon"></i>
+                    <h3>Superviseurs Qualité</h3>
+                    <p>Responsables du contrôle rigoureux des prestations sur le terrain pour garantir la satisfaction client à 100%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section RH / Carrières -->
+    <section id="rh" class="section bg-light">
+        <div class="container grid-2">
+            <div>
+                <span class="badge">Rejoignez-nous</span>
+                <h2>Développez votre carrière chez Clear Ecolo Cleaner</h2>
+                <p>En pleine expansion à Nouakchott, CEC recrute régulièrement des talents motivés et soucieux de l'environnement.</p>
+                
+                <div style="margin-top: 25px;">
+                    <h3>Profils recherchés :</h3>
+                    <ul class="check-list">
+                        <li><i class="fas fa-check-circle"></i> <strong>Agents de propreté & d'entretien</strong></li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Techniciens Peste Control / Phytosanitaire</strong></li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Stagiaires en Gestion & Administration</strong></li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Superviseurs d'équipes de chantier</strong></li>
+                    </ul>
+                </div>
+
+                <p style="margin-top: 20px;"><strong>Pourquoi nous rejoindre ?</strong> Un cadre de travail respectueux, des formations continues et des opportunités d'évolution interne.</p>
+            </div>
+
+            <div class="card">
+                <h3>Postuler en ligne</h3>
+                <p style="font-size: 0.9rem; color: #666; margin-bottom: 20px;">Remplissez ce formulaire pour envoyer votre candidature.</p>
+                
+                <form id="rhForm">
+                    <div class="form-group">
+                        <label>Nom & Prénom</label>
+                        <input type="text" class="form-control" required placeholder="Votre nom complet">
+                    </div>
+                    <div class="form-group">
+                        <label>Téléphone</label>
+                        <input type="tel" class="form-control" required placeholder="+222 ...">
+                    </div>
+                    <div class="form-group">
+                        <label>Poste souhaité</label>
+                        <select class="form-control">
+                            <option>Agent d'entretien / Propreté</option>
+                            <option>Technicien Peste Control</option>
+                            <option>Superviseur de chantier</option>
+                            <option>Stage / Stage académique</option>
+                            <option>Autre candidature</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Présentation / Expériences</label>
+                        <textarea class="form-control" rows="3" required placeholder="Décrivez brièvement votre parcours..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Envoyer ma candidature</button>
+                </form>
             </div>
         </div>
     </section>
